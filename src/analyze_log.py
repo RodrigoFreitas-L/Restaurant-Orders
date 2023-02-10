@@ -47,9 +47,9 @@ def analyze_log(path_to_file):
             arnaldo = handler_arnaldo(r)
             with open("data/mkt_campaign.txt", "w") as f:
                 f.write(f"{(maria)}\n")
-                f.write(f"{str(arnaldo)}\n")
-                f.write(f"{str(joao[0])}\n")
-                f.write(f"{str(joao[1])}\n")
+                f.write(f"{(arnaldo)}\n")
+                f.write(f"{(joao[0])}\n")
+                f.write(f"{(joao[1])}\n")
     except FileNotFoundError:
         raise FileNotFoundError(f"Arquivo inexistente: '{path_to_file}'")
 
